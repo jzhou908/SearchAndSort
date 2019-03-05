@@ -61,12 +61,15 @@ public class SearchAndSort {
 				System.out.println(intarray);
 			}
 			else if(answer.equalsIgnoreCase("merge")) {
+				sorting.merge(intarray);
 				System.out.println(intarray);
 			}
 			else if(answer.equalsIgnoreCase("linear")) {
+				sorting.linear(intarray);
 				System.out.println(intarray);
 			}
 			else if(answer.equalsIgnoreCase("binary")) {
+				sorting.binary(intarray);
 				System.out.println(intarray);
 			}
 			else if(answer.equalsIgnoreCase("quit")) {
@@ -90,12 +93,15 @@ public class SearchAndSort {
 				System.out.println(stringarray);
 			}
 			else if(answer.equalsIgnoreCase("merge")) {
+				sorting.merge(stringarray);
 				System.out.println(stringarray);
 			}
 			else if(answer.equalsIgnoreCase("linear")) {
+				sorting.linear(stringarray);
 				System.out.println(stringarray);
 			}
 			else if(answer.equalsIgnoreCase("binary")) {
+				sorting.binary(stringarray);
 				System.out.println(stringarray);
 			}
 			else if(answer.equalsIgnoreCase("quit")) {
@@ -119,12 +125,15 @@ public class SearchAndSort {
 				System.out.println(stringarraylist);
 			}
 			else if(answer.equalsIgnoreCase("merge")) {
+				sorting.merge1(stringarraylist);
 				System.out.println(stringarraylist);
 			}
 			else if(answer.equalsIgnoreCase("linear")) {
+				sorting.linear1(stringarraylist);
 				System.out.println(stringarraylist);
 			}
 			else if(answer.equalsIgnoreCase("binary")) {
+				sorting.binary1(stringarraylist);
 				System.out.println(stringarraylist);
 			}
 			else if(answer.equalsIgnoreCase("quit")) {
@@ -154,12 +163,15 @@ public class SearchAndSort {
 				System.out.println(intarraylist);
 			}
 			else if(answer.equalsIgnoreCase("merge")) {
+				sorting.merge(intarraylist);
 				System.out.println(intarraylist);
 			}
 			else if(answer.equalsIgnoreCase("linear")) {
+				sorting.linear(intarraylist);
 				System.out.println(intarraylist);
 			}
 			else if(answer.equalsIgnoreCase("binary")) {
+				sorting.binary(intarraylist);
 				System.out.println(intarraylist);
 			}
 			else if(answer.equalsIgnoreCase("quit")) {
